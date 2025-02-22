@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Trainer</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    
+
+    .card {
+        background-color: black;
+        width: 600px;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: left;
+        color: white;
+        position: relative;
+        border: 2px solid #FFD700;
+    }
+
+    .image-container img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+        font-style: italic;
+        color: #FFD700;
+        text-align: center;
+    }
+
+    p {
+        font-size:1em;
+        padding: 10px;
+        line-height: 1.5;
+        font-style: italic;
+        color: #FFC0CB;
+        font-size: 20px;
+    }
+
+    .chat-button {
+        background-color: blue;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: block;
+        margin: 10px auto;
+        font-style: italic;
+    }
+
+    .chat-button:hover {
+        background-color: darkblue;
+    }
+
+    .navigation {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .nav-button {
+        background: white;
+        border: none;
+        padding: 5px 10px;
+        margin: 22px;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    .nav-button:hover {
+        background-color: #FFD700;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>VR Trainer</h2>
+        <div class="image-container">
+            <img src="./images/image2.webp" alt="VR Trainer Hologram">
+        </div>
+        <div class="content">
+            <p><strong>Trainer:</strong></p>
+            <p>
+                <em>The trainer is an energetic and motivational fitness professional, dressed in athletic wear, demonstrating exercises in a modern home gym. They are using a headset microphone to clearly communicate with participants.</em>
+            </p>
+            <button class="chat-button">Chat with Trainer</button>
+        </div>
+        <div class="navigation">
+            <a href="./01MainProject.html"><button class="nav-button">⬅</button></a>
+        </div>
+    </div>
+</body>
+</html>

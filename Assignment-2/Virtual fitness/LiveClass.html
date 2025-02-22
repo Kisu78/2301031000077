@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live VR Fitness Class</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #1a1a1a;
+    }
+
+    .container {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .background {
+        width: 100%;
+        height: 100%;
+        /* object-fit: cover; */
+        border-radius: 10px;
+    }
+
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+    }
+
+    .banner {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #b4ff00;
+        color: black;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 18px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .arrow-btn {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        background: rgb(145, 230, 26);
+        border: none;
+        font-size: 50px;
+        padding: 10px 15px;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="overlay"></div>
+        <img src="./images/image2.webp" alt="VR Fitness Class" class="background">
+        <div class="banner">Live Class</div>
+        <a href="./Classes.html"><button class="arrow-btn">&#8592;</button></a>
+    </div>
+</body>
+</html>

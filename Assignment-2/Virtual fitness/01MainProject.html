@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Fitness</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        background: url(./images/image7.jpeg) no-repeat center center/cover;
+        background-attachment: fixed;
+        background-color: black;
+        
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: black;
+        padding: 15px 30px;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+    }
+
+    .logo {
+        color: #ff4500;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: red;
+        font-weight: bold;
+    }
+
+    .auth-links a {
+        color: yellow;
+        margin-left: 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 150px 20px;
+
+    }
+
+    .hero h2 {
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .hero p {
+        font-size: 24px;
+        font-style: italic;
+        margin-top: 10px;
+    }
+
+    footer {
+        background:black;
+        text-align: center;
+        /* margin-top: 500px; */
+        padding:20px;
+        font-size: 25px;
+        font-weight: bold;
+        color: orange;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="logo">VR Fitnees</h1>
+        <nav>
+            <ul>
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./Classes.html">Classes</a></li>
+                <li><a href="./Trainer.html">Trainer</a></li>
+                <li><a href="./Contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="auth-links">
+            <a href="./Login.html">Login</a>
+            <a href="./Signup.html">Sign Up</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to the Virtual Fitness Classes</h2>
+            <p>"Transform Your Fitness with Virtual Reality"</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Join Live VR Fitness Classes With Comfort Of Your Home</p>
+    </footer>
+</body>
+</html>
